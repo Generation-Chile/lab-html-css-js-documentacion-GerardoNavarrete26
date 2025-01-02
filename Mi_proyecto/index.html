@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <!-- link hoja de css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <p class="welcome-text">Bienvenido a</p>
+        <h1 class="main-title">FULL STACK DEVELOPERS</h1>
+    </div>
+</header>
+<!-- Primer seccion unirse -->
+<section id="cta">
+    <h1>¡Full Stack <span class="travel">Developers!</span></h1>
+    <h2>Únete a nuestro equipo</h2>
+    <p>La comunidad de desarrolladores Full Stack Developers!</p>
+      <!-- Boton que lleva al formulario -->
+    <button class="cta-form" id="cta-form">¡UNIRSE!</button>
+  </section>
+  <!-- Segunda seccion contacto -->
+  <section id="form">
+    <h2>Registrate para conocer mucho más sobre nuestra comunidad</h2>
+      <!-- Formulario -->
+    <form>
+         <!-- Nombre y su campo -->
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+        <!-- Correo y su campo -->
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+        <!-- Mensaje y su campo -->
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+        <!-- Boton Registrar -->
+      <button class="cta-form" type="button" onclick="presionarBoton()">Registrar</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 FullStack Developers. Gerardo Navarrete.</p>
+  </footer>
+    <!-- link archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
